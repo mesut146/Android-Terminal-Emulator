@@ -88,22 +88,28 @@ public class TermService extends Service implements TermSession.FinishCallback
         String defValue = getDir("HOME", MODE_PRIVATE).getAbsolutePath();
         String homePath = prefs.getString("home_path", defValue);
         editor.putString("home_path", homePath);
-        editor.commit();
+        editor.apply();//was commit
 
         compat = new ServiceForegroundCompat(this);
         mTermSessions = new SessionList();
 
         /* Put the service in the foreground. */
-        Notification notification = new Notification(R.drawable.ic_stat_service_notification_icon, getText(R.string.service_notify_text), System.currentTimeMillis());
-        notification.flags |= Notification.FLAG_ONGOING_EVENT;
+        Notification.Builder builder=new Notification.Builder(this);
+        builder.setSmallIcon(R.drawable.ic_stat_service_notification_icon);
+        builder.setTicker(getText(R.string.service_notify_text));
+        builder.setWhen(System.currentTimeMillis());
         Intent notifyIntent = new Intent(this, Term.class);
         notifyIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, notifyIntent, 0);
-        notification.setLatestEventInfo(this, getText(R.string.application_terminal), getText(R.string.service_notify_text), pendingIntent);
+        //todo notification.setLatestEventInfo(this, getText(R.string.application_terminal), getText(R.string.service_notify_text), pendingIntent);
+        builder.setContentIntent(pendingIntent);
+        builder.setContentTitle(getText(R.string.application_terminal));
+        builder.setContentText( getText(R.string.service_notify_text));
+        Notification notification = builder.build();
+        notification.flags |= Notification.FLAG_ONGOING_EVENT;
         compat.startForeground(RUNNING_NOTIFICATION, notification);
 
         Log.d(TermDebug.LOG_TAG, "TermService started");
-        return;
     }
 
     @Override
@@ -117,7 +123,6 @@ public class TermService extends Service implements TermSession.FinishCallback
             session.finish();
         }
         mTermSessions.clear();
-        return;
     }
 
     public SessionList getSessions() {

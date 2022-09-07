@@ -2,15 +2,32 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Android-Terminal-Emulator.iml" filepath="$PROJECT_DIR$/Android-Terminal-Emulator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/emulatorview/emulatorview.iml" filepath="$PROJECT_DIR$/emulatorview/emulatorview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/samples/intents/intents.iml" filepath="$PROJECT_DIR$/samples/intents/intents.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libtermexec/libtermexec.iml" filepath="$PROJECT_DIR$/libtermexec/libtermexec.iml" />
-      <module fileurl="file://$PROJECT_DIR$/samples/pathbroadcasts/pathbroadcasts.iml" filepath="$PROJECT_DIR$/samples/pathbroadcasts/pathbroadcasts.iml" />
-      <module fileurl="file://$PROJECT_DIR$/samples/samples.iml" filepath="$PROJECT_DIR$/samples/samples.iml" />
-      <module fileurl="file://$PROJECT_DIR$/samples/telnet/telnet.iml" filepath="$PROJECT_DIR$/samples/telnet/telnet.iml" />
-      <module fileurl="file://$PROJECT_DIR$/term/term.iml" filepath="$PROJECT_DIR$/term/term.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Android-Terminal-Emulator-master.iml" filepath="$PROJECT_DIR$/.idea/modules/Android-Terminal-Emulator-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/emulatorview/Android-Terminal-Emulator-master.emulatorview.iml" filepath="$PROJECT_DIR$/.idea/modules/emulatorview/Android-Terminal-Emulator-master.emulatorview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/emulatorview/Android-Terminal-Emulator-master.emulatorview.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/emulatorview/Android-Terminal-Emulator-master.emulatorview.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/emulatorview/Android-Terminal-Emulator-master.emulatorview.main.iml" filepath="$PROJECT_DIR$/.idea/modules/emulatorview/Android-Terminal-Emulator-master.emulatorview.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/emulatorview/Android-Terminal-Emulator-master.emulatorview.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/emulatorview/Android-Terminal-Emulator-master.emulatorview.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libtermexec/Android-Terminal-Emulator-master.libtermexec.iml" filepath="$PROJECT_DIR$/.idea/modules/libtermexec/Android-Terminal-Emulator-master.libtermexec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libtermexec/Android-Terminal-Emulator-master.libtermexec.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libtermexec/Android-Terminal-Emulator-master.libtermexec.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libtermexec/Android-Terminal-Emulator-master.libtermexec.main.iml" filepath="$PROJECT_DIR$/.idea/modules/libtermexec/Android-Terminal-Emulator-master.libtermexec.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libtermexec/Android-Terminal-Emulator-master.libtermexec.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libtermexec/Android-Terminal-Emulator-master.libtermexec.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/samples/Android-Terminal-Emulator-master.samples.iml" filepath="$PROJECT_DIR$/.idea/modules/samples/Android-Terminal-Emulator-master.samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/samples/intents/Android-Terminal-Emulator-master.samples.intents.iml" filepath="$PROJECT_DIR$/.idea/modules/samples/intents/Android-Terminal-Emulator-master.samples.intents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/samples/intents/Android-Terminal-Emulator-master.samples.intents.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/samples/intents/Android-Terminal-Emulator-master.samples.intents.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/samples/intents/Android-Terminal-Emulator-master.samples.intents.main.iml" filepath="$PROJECT_DIR$/.idea/modules/samples/intents/Android-Terminal-Emulator-master.samples.intents.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/samples/intents/Android-Terminal-Emulator-master.samples.intents.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/samples/intents/Android-Terminal-Emulator-master.samples.intents.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/samples/pathbroadcasts/Android-Terminal-Emulator-master.samples.pathbroadcasts.iml" filepath="$PROJECT_DIR$/.idea/modules/samples/pathbroadcasts/Android-Terminal-Emulator-master.samples.pathbroadcasts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/samples/pathbroadcasts/Android-Terminal-Emulator-master.samples.pathbroadcasts.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/samples/pathbroadcasts/Android-Terminal-Emulator-master.samples.pathbroadcasts.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/samples/pathbroadcasts/Android-Terminal-Emulator-master.samples.pathbroadcasts.main.iml" filepath="$PROJECT_DIR$/.idea/modules/samples/pathbroadcasts/Android-Terminal-Emulator-master.samples.pathbroadcasts.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/samples/pathbroadcasts/Android-Terminal-Emulator-master.samples.pathbroadcasts.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/samples/pathbroadcasts/Android-Terminal-Emulator-master.samples.pathbroadcasts.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/samples/telnet/Android-Terminal-Emulator-master.samples.telnet.iml" filepath="$PROJECT_DIR$/.idea/modules/samples/telnet/Android-Terminal-Emulator-master.samples.telnet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/samples/telnet/Android-Terminal-Emulator-master.samples.telnet.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/samples/telnet/Android-Terminal-Emulator-master.samples.telnet.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/samples/telnet/Android-Terminal-Emulator-master.samples.telnet.main.iml" filepath="$PROJECT_DIR$/.idea/modules/samples/telnet/Android-Terminal-Emulator-master.samples.telnet.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/samples/telnet/Android-Terminal-Emulator-master.samples.telnet.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/samples/telnet/Android-Terminal-Emulator-master.samples.telnet.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/term/Android-Terminal-Emulator-master.term.iml" filepath="$PROJECT_DIR$/.idea/modules/term/Android-Terminal-Emulator-master.term.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/term/Android-Terminal-Emulator-master.term.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/term/Android-Terminal-Emulator-master.term.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/term/Android-Terminal-Emulator-master.term.main.iml" filepath="$PROJECT_DIR$/.idea/modules/term/Android-Terminal-Emulator-master.term.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/term/Android-Terminal-Emulator-master.term.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/term/Android-Terminal-Emulator-master.term.unitTest.iml" />
     </modules>
   </component>
 </project>
-
