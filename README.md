@@ -1,5 +1,5 @@
 # Terminal Emulator for Android
-##TEA with latest gradle version(7.3.3) and modern cmake system
+## TEA with latest gradle version(7.3.3) and modern cmake system
 
 *Note:* Terminal Emulator for Android development has ended. I am not
 accepting pull requests any more.
